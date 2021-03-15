@@ -1,3 +1,5 @@
+@import "antd/dist/antd.css";
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.navbar_warapper a {
+  padding-left: 30px;
+  color: aliceblue;
+}
+
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+  display: flex;
 }
 
 @keyframes App-logo-spin {
